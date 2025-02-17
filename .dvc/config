@@ -1,0 +1,12 @@
+[core]
+    remote = myremote
+['remote "myremote"']
+    url = s3://myfreebucketdvc
+['remote "myremote1"']
+    url = ../gdrive:1XFY80t7q4WGYrwJI_o9hXQvqEUa3R3Uf
+['remote "myremote2"']
+    url = gdrive://1XFY80t7q4WGYrwJI_o9hXQvqEUa3R3Uf
+['remote "myremote3"']
+    url = gdrive://1eTpMGmms1QHNSw1ZbwoVEhqD4kqOrHfR
+['remote "mystorage"']
+    url = s3://mystoragebucketdvc/dvcdata
